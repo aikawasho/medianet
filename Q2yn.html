@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+　<head>
+  <link rel="stylesheet" href="mediahp.css" type="text/css">
+  <title>芋焼酎情報</title>
+  <div class ="box">
+    <p><a href="mediahp.html" class = "menu" >TOP</a> <a href="info.html" class = "menu" >焼酎の基礎知識</a>       <a href="index.html" class = "menu">芋焼酎紹介</a>        <a href="index.html" class = "menu">掲示板</a>       <a href="index.html" class = "menu">ログイン</a></p></div>
+    <p class = "suggest">　 <a href="suggest.html">お好みに合った焼酎オススメします</a></p>
+
+      <script type="text/javascript">
+      function func1(){
+        location.href = "index.html#mitake";
+        window.alert("こちらをお湯割またはロックがオススメです。")
+      }
+
+      function func2(){
+        location.href = "index.html#mogura";
+        window.alert("こちらの焼酎がオススメです。")
+      }
+      </script>
+</head>
+<body>
+
+
+<p>Q.比較的優しい味のものが好きですか?</p>
+<form name="g_switch">
+
+<input type="button" name="gs_1" value="Yes！" onclick = "func1()"  style="widht:50px; height: 50px; font-size:20px;">
+<input type="button" name="gs_2" value="No！" onclick = "func2()"  style="widht:50px; height: 50px; font-size:20px;">
+
+</form>
+</body>
+</html>
